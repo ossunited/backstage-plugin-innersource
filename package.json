@@ -23,7 +23,10 @@
     "lint:all": "backstage-cli repo lint",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "new": "backstage-cli new --scope internal"
+    "new": "backstage-cli new --scope internal",
+    "backstage:bump": "backstage-cli versions:bump",
+    "bump-test": "yarn run standard-version --dry-run --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'",
+    "bump": "yarn run standard-version --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'"
   },
   "workspaces": {
     "packages": [
