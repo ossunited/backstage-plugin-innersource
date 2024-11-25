@@ -26,7 +26,8 @@
     "new": "backstage-cli new --scope internal",
     "backstage:bump": "backstage-cli versions:bump",
     "bump-test": "yarn run standard-version --dry-run --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'",
-    "bump": "yarn run standard-version --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'"
+    "bump": "yarn run standard-version --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'",
+    "postinstall": "husky install"
   },
   "workspaces": {
     "packages": [
@@ -42,6 +43,7 @@
     "concurrently": "^8.0.0",
     "husky": "^9.1.7",
     "lerna": "^7.3.0",
+    "lint-staged": ">=10",
     "node-gyp": "^9.0.0",
     "prettier": "^2.3.2",
     "standard-version": "^9.5.0",
@@ -52,11 +54,6 @@
     "@types/react-dom": "^18"
   },
   "prettier": "@spotify/prettier-config",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
       "eslint --fix",
@@ -64,7 +61,8 @@
     ],
     "*.{json,md}": [
       "prettier --write"
-    ]
+    ],
+    "*.{css,md}": "prettier --write"
   },
   "packageManager": "yarn@4.5.3"
 }
