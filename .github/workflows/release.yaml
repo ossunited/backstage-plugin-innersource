@@ -54,7 +54,7 @@ jobs:
       - run: git pull
       - run: yarn
       - run: |
-          git config user.name "Workflow Bot"
+          git config user.name "GH Workflow Assistant"
           git config user.email "<>"
       - run: yarn bump
       - run: git push --follow-tags
@@ -73,7 +73,7 @@ jobs:
         uses: 'WyriHaximus/github-action-get-previous-tag@v1'
       - uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: '${{ secrets.WORKFLOW_TOKEN }}'
+          repo_token: '${{ secrets.GH_WORKFLOW_ASSISTANT_TOKEN }}'
           prerelease: false
           automatic_release_tag: ${{ steps.previoustag.outputs.tag }}
           files: 'CHANGELOG.md'
