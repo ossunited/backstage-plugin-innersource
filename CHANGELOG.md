@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.1...v1.1.7) (2024-11-26)
+
+
+### Bug Fixes
+
+* pre commit hook fix ([#4](https://github.com/jiteshy/backstage-plugin-synergy/issues/4)) ([924a675](https://github.com/jiteshy/backstage-plugin-synergy/commit/924a675978250902cee403c1d4fb39a37b0f4aa8))
+* release workflow fix ([813988d](https://github.com/jiteshy/backstage-plugin-synergy/commit/813988dea86590737658a3750c71f95411b7c440))
+* release workflow fix ([14092ef](https://github.com/jiteshy/backstage-plugin-synergy/commit/14092efdc8d3f996b0598fc8e0e9fc30ef7f87bc))
+* release workflow fix - attempt 1001 ([00f787d](https://github.com/jiteshy/backstage-plugin-synergy/commit/00f787db2d3e02a01fe04529d8bdfce8de05c3ae))
+* release workflow fix - attempt 1002 ([45156b5](https://github.com/jiteshy/backstage-plugin-synergy/commit/45156b56876e993de8f687aa829c155643861e60))
+* release workflow fix - attempt 1003 ([51afd84](https://github.com/jiteshy/backstage-plugin-synergy/commit/51afd8449fb0d9f4c0070f87a67ba43945745f07))
+* release workflow fix - attempt 1004 ([33c2e14](https://github.com/jiteshy/backstage-plugin-synergy/commit/33c2e14d72fcbe16599ca9c6d6c08ad12aa87bed))
+* templates formatting fix ([ba4cc82](https://github.com/jiteshy/backstage-plugin-synergy/commit/ba4cc82586ed1f8ffae39d058a766d5c05e1c2f4))
+
 ### [1.1.1](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.0...v1.1.1) (2024-11-25)
 
 ### Bug Fixes
