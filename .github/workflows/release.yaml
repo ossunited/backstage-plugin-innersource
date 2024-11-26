@@ -45,7 +45,7 @@ jobs:
     steps:
       - name: Get token for GH Workflow Assistant app
         id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@v3
+        uses: actions/create-github-app-token@v1
         with:
           application_id: ${{ vars.GH_WORKFLOW_ASSISTANT_APP_ID }}
           application_private_key: ${{ secrets.GH_WORKFLOW_ASSISTANT_PVT_KEY }}
