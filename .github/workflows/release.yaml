@@ -80,7 +80,7 @@ jobs:
         uses: 'WyriHaximus/github-action-get-previous-tag@v1'
       - uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: '${{ secrets.GH_WORKFLOW_ASSISTANT_TOKEN }}'
+          repo_token: '${{ steps.get_workflow_token.outputs.token }}'
           prerelease: false
           automatic_release_tag: ${{ steps.previoustag.outputs.tag }}
           files: 'CHANGELOG.md'
