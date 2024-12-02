@@ -71,6 +71,12 @@ jobs:
     needs: [bump-version]
     runs-on: ubuntu-latest
     steps:
+      - name: Get token for GH Workflow Assistant app
+        id: get_workflow_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.GH_WORKFLOW_ASSISTANT_APP_ID }}
+          private-key: ${{ secrets.GH_WORKFLOW_ASSISTANT_PVT_KEY }}
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
