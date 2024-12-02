@@ -27,7 +27,8 @@
     "backstage:bump": "backstage-cli versions:bump",
     "bump-test": "yarn run standard-version --dry-run --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'",
     "bump": "yarn run standard-version --no-verify --releaseCommitMessageFormat 'v{{currentTag}}'",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "setup:publish": "backstage-cli repo fix --publish"
   },
   "workspaces": {
     "packages": [
