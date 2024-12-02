@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.10](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.9...v1.1.10) (2024-12-02)
+
+
+### Bug Fixes
+
+* release workflow fix ([085ec94](https://github.com/jiteshy/backstage-plugin-synergy/commit/085ec94404a4aea1dc336b31cf4e112ce1c0d92b))
+
 ### [1.1.9](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.8...v1.1.9) (2024-12-02)
 
 ### [1.1.8](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.7...v1.1.8) (2024-11-27)
