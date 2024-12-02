@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.13](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.12...v1.1.13) (2024-12-02)
 
-
 ### Bug Fixes
 
-* release workflow fix ([734f344](https://github.com/jiteshy/backstage-plugin-synergy/commit/734f34455fdf6a6f7aefbd867880f45ff279ae91))
+- release workflow fix ([734f344](https://github.com/jiteshy/backstage-plugin-synergy/commit/734f34455fdf6a6f7aefbd867880f45ff279ae91))
 
 ### [1.1.12](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.1.11...v1.1.12) (2024-12-02)
 
