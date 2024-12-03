@@ -1,0 +1,21 @@
+{
+  "packageFiles": [
+    "plugins/synergy/package.json",
+    "plugins/synergy-backend/package.json",
+    "plugins/synergy-common/package.json"
+  ],
+  "bumpFiles": [
+    {
+      "filename": "plugins/synergy/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "plugins/synergy-backend/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "plugins/synergy-common/package.json",
+      "type": "json"
+    }
+  ]
+}
