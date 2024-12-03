@@ -7110,7 +7110,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jiteshy/backstage-plugin-synergy-backend@npm:^0.1.0, @jiteshy/backstage-plugin-synergy-backend@workspace:plugins/synergy-backend":
+"@jiteshy/backstage-plugin-synergy-backend@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@jiteshy/backstage-plugin-synergy-backend@npm:0.1.0"
+  dependencies:
+    "@backstage/backend-defaults": "npm:^0.5.3"
+    "@backstage/backend-plugin-api": "npm:^1.0.2"
+    "@backstage/config": "npm:^1.3.0"
+    "@backstage/integration": "npm:^1.15.2"
+    "@backstage/plugin-auth-backend": "npm:^0.24.0"
+    "@backstage/plugin-auth-backend-module-guest-provider": "npm:^0.2.2"
+    "@jiteshy/backstage-plugin-synergy-common": "npm:^0.1.0"
+    "@octokit/graphql": "npm:^5.0.0"
+    "@types/express": "npm:*"
+    express: "npm:^4.20.0"
+    express-promise-router: "npm:^4.1.0"
+    node-fetch: "npm:^2.6.7"
+    winston: "npm:^3.2.1"
+    yn: "npm:^4.0.0"
+  checksum: 10c0/ab85d342856ed557e28b2dd1e0c08ee11a652d24bbe8e136683ab05950bc31c33ef05af97af6700aad319c8ff6759f18b5f36ebe093035c4c6fd069f5d2aa672
+  languageName: node
+  linkType: hard
+
+"@jiteshy/backstage-plugin-synergy-backend@workspace:plugins/synergy-backend":
   version: 0.0.0-use.local
   resolution: "@jiteshy/backstage-plugin-synergy-backend@workspace:plugins/synergy-backend"
   dependencies:
@@ -7136,6 +7158,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@jiteshy/backstage-plugin-synergy-common@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@jiteshy/backstage-plugin-synergy-common@npm:0.1.0"
+  checksum: 10c0/e93d12868ebf1a82328121f70a4713fde00bae21d413bd43c0d8acda1b42abda571688d33d70453447dd6826c3421fbf7441434fb99ffa8f7fc96fdc65fabe91
+  languageName: node
+  linkType: hard
+
 "@jiteshy/backstage-plugin-synergy-common@workspace:^, @jiteshy/backstage-plugin-synergy-common@workspace:plugins/synergy-common":
   version: 0.0.0-use.local
   resolution: "@jiteshy/backstage-plugin-synergy-common@workspace:plugins/synergy-common"
@@ -7144,7 +7173,29 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jiteshy/backstage-plugin-synergy@npm:^0.1.0, @jiteshy/backstage-plugin-synergy@workspace:plugins/synergy":
+"@jiteshy/backstage-plugin-synergy@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@jiteshy/backstage-plugin-synergy@npm:0.1.0"
+  dependencies:
+    "@backstage/core-app-api": "npm:^1.15.2"
+    "@backstage/core-components": "npm:^0.16.1"
+    "@backstage/core-plugin-api": "npm:^1.10.1"
+    "@backstage/errors": "npm:^1.2.5"
+    "@backstage/theme": "npm:^0.6.2"
+    "@jiteshy/backstage-plugin-synergy-common": "npm:^0.1.0"
+    "@material-ui/core": "npm:^4.9.13"
+    "@material-ui/icons": "npm:^4.9.1"
+    "@material-ui/lab": "npm:4.0.0-alpha.61"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 10c0/9aec827b516fd5dc9edab7abe7bb1c8c839efdeee0d320f9bac16c88e7b7217014be8084999addaa9021128a8d2971dcac31a73bb9741d90937027f359780e1b
+  languageName: node
+  linkType: hard
+
+"@jiteshy/backstage-plugin-synergy@workspace:plugins/synergy":
   version: 0.0.0-use.local
   resolution: "@jiteshy/backstage-plugin-synergy@workspace:plugins/synergy"
   dependencies:
