@@ -116,7 +116,7 @@ jobs:
       - run: yarn
       - run: yarn tsc
       - run: yarn build
-      - run: yarn workspaces foreach --all --no-private npm publish
+      - run: yarn npm publish
 
   backend-publish:
     name: Publish plugin backend
@@ -143,7 +143,7 @@ jobs:
       - run: yarn
       - run: yarn tsc
       - run: yarn build
-      - run: yarn workspaces foreach --all --no-private npm publish
+      - run: yarn npm publish
 
   common-publish:
     name: Publish plugin common
@@ -170,4 +170,4 @@ jobs:
       - run: yarn
       - run: yarn tsc
       - run: yarn build
-      - run: yarn workspaces foreach --all --no-private npm publish
+      - run: yarn npm publish
