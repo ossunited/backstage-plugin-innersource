@@ -7,7 +7,7 @@ import {
 import { useSynergyApi } from '../../hooks';
 import { Box, Grid, makeStyles, Theme } from '@material-ui/core';
 import { InfoBanner } from '../InfoBanner';
-import { ProjectContributor } from '@jiteshy/backstage-plugin-synergy-common';
+import { ProjectContributor } from '@opensource-sig/backstage-plugin-synergy-common';
 
 const useStyles = makeStyles<Theme>(theme => ({
   row: {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectIssue } from '@jiteshy/backstage-plugin-synergy-common';
+import { ProjectIssue } from '@opensource-sig/backstage-plugin-synergy-common';
 import {
   Accordion,
   AccordionDetails,

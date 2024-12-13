@@ -9,7 +9,7 @@ import {
   ProjectIssue,
   ProjectContributor,
   ProjectStats,
-} from '@jiteshy/backstage-plugin-synergy-common';
+} from '@opensource-sig/backstage-plugin-synergy-common';
 
 type TopicNode = {
   topic: {

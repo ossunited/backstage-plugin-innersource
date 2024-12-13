@@ -19,7 +19,7 @@ import {
 } from '@backstage/core-plugin-api';
 import { projectRouteRef } from '../../routes';
 import { IssuesList } from '../IssuesList';
-import { ProjectIssue } from '@jiteshy/backstage-plugin-synergy-common';
+import { ProjectIssue } from '@opensource-sig/backstage-plugin-synergy-common';
 import { TabContent } from '../../utils';
 
 type TabsContentProps = {

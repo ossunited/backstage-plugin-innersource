@@ -8,7 +8,7 @@ import {
   ProjectIssue,
   ProjectStats,
   SynergyApi,
-} from '@jiteshy/backstage-plugin-synergy-common';
+} from '@opensource-sig/backstage-plugin-synergy-common';
 
 export class SynergyClient implements SynergyApi {
   private readonly discoveryApi: DiscoveryApi;

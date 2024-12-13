@@ -4,7 +4,7 @@ import {
   Progress,
   ResponseErrorPanel,
 } from '@backstage/core-components';
-import { Project } from '@jiteshy/backstage-plugin-synergy-common';
+import { Project } from '@opensource-sig/backstage-plugin-synergy-common';
 import { useSynergyApi } from '../../hooks';
 import { ProjectCard } from '../ProjectCard';
 import { Box, Grid } from '@material-ui/core';

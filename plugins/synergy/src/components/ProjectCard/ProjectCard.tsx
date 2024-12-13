@@ -7,7 +7,7 @@ import StarIcon from '@material-ui/icons/Star';
 import BugReportIcon from '@material-ui/icons/BugReport';
 import CallMergeIcon from '@material-ui/icons/CallMerge';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
-import { Project } from '@jiteshy/backstage-plugin-synergy-common';
+import { Project } from '@opensource-sig/backstage-plugin-synergy-common';
 import { useRouteRef } from '@backstage/core-plugin-api';
 import { projectRouteRef } from '../../routes';
 import { LinkButton } from '@backstage/core-components';

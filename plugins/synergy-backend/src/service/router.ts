@@ -14,7 +14,7 @@ import {
   ProjectIssue,
   ProjectStats,
   SynergyApi,
-} from '@jiteshy/backstage-plugin-synergy-common';
+} from '@opensource-sig/backstage-plugin-synergy-common';
 import { MiddlewareFactory } from '@backstage/backend-defaults/rootHttpRouter';
 
 export interface RouterOptions {

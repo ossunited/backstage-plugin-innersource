@@ -41,6 +41,8 @@ dist-types
 # MkDocs build output
 site
 
+.idea
+
 # Local configuration files
 *.local.yaml
 
