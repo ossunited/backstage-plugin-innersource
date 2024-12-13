@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.4.1...v1.5.0) (2024-12-13)
+
+
+### Features
+
+* plugin renamed to innersource ([2cd43e8](https://github.com/opensource-sig/backstage-plugin-innersource/commit/2cd43e88185efc1edf8b670abd1fe02aa1fc9042))
+
+
+### Bug Fixes
+
+* config updated to innersource ([b5387a4](https://github.com/opensource-sig/backstage-plugin-innersource/commit/b5387a483f6384123dbd71774a8dfbad36aa2c3d))
+
 ### [1.4.1](https://github.com/opensource-sig/backstage-plugin-synergy/compare/v1.4.0...v1.4.1) (2024-12-13)
 
 ### Bug Fixes
