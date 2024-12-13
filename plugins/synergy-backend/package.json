@@ -1,7 +1,7 @@
 {
   "name": "@opensource-sig/backstage-plugin-synergy-backend",
   "description": "Backstage.io Synergy plugin backend",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "keywords": [
     "backstage",
     "plugin",

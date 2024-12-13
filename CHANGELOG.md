@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/opensource-sig/backstage-plugin-synergy/compare/v1.4.0...v1.4.1) (2024-12-13)
+
+
+### Bug Fixes
+
+* resolved imports for plugin ([a4f366a](https://github.com/opensource-sig/backstage-plugin-synergy/commit/a4f366a00ce8c26baf452615c892a7db0bf2a271))
+* resolving yarn build issues ([30129f6](https://github.com/opensource-sig/backstage-plugin-synergy/commit/30129f62ac2c06539b4f6bd281fa182ef44f5a2d))
+
 ## 1.4.0 (2024-12-13)
 
 
