@@ -1,5 +1,5 @@
 {
-  "name": "@jiteshy/backstage-plugin-synergy-backend",
+  "name": "@opensource-sig/backstage-plugin-synergy-backend",
   "description": "Backstage.io Synergy plugin backend",
   "version": "1.4.0",
   "keywords": [
@@ -12,13 +12,13 @@
   "types": "src/index.ts",
   "license": "Apache-2.0",
   "prepublishOnly": "yarn tsc && yarn build",
-  "homepage": "https://github.com/jiteshy/backstage-plugin-synergy",
+  "homepage": "https://github.com/opensource-sig/backstage-plugin-synergy",
   "bugs": {
-    "url": "https://github.com/jiteshy/backstage-plugin-synergy/issues"
+    "url": "https://github.com/opensource-sig/backstage-plugin-synergy/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiteshy/backstage-plugin-synergy.git"
+    "url": "https://github.com/opensource-sig/backstage-plugin-synergy.git"
   },
   "publishConfig": {
     "access": "public",
@@ -29,9 +29,9 @@
     "role": "backend-plugin",
     "pluginId": "synergy",
     "pluginPackages": [
-      "@jiteshy/backstage-plugin-synergy",
-      "@jiteshy/backstage-plugin-synergy-backend",
-      "@jiteshy/backstage-plugin-synergy-common"
+      "@opensource-sig/backstage-plugin-synergy",
+      "@opensource-sig/backstage-plugin-synergy-backend",
+      "@opensource-sig/backstage-plugin-synergy-common"
     ]
   },
   "scripts": {
