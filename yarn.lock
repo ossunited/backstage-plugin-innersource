@@ -9064,9 +9064,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opensource-sig/backstage-plugin-synergy-backend@workspace:^, @opensource-sig/backstage-plugin-synergy-backend@workspace:plugins/synergy-backend":
+"@opensource-sig/backstage-plugin-innersource-backend@workspace:^, @opensource-sig/backstage-plugin-innersource-backend@workspace:plugins/innersource-backend":
   version: 0.0.0-use.local
-  resolution: "@opensource-sig/backstage-plugin-synergy-backend@workspace:plugins/synergy-backend"
+  resolution: "@opensource-sig/backstage-plugin-innersource-backend@workspace:plugins/innersource-backend"
   dependencies:
     "@backstage/backend-defaults": "npm:^0.5.3"
     "@backstage/backend-plugin-api": "npm:^1.0.2"
@@ -9077,7 +9077,7 @@ __metadata:
     "@backstage/plugin-auth-backend": "npm:^0.24.0"
     "@backstage/plugin-auth-backend-module-guest-provider": "npm:^0.2.2"
     "@octokit/graphql": "npm:^5.0.0"
-    "@opensource-sig/backstage-plugin-synergy-common": "workspace:^"
+    "@opensource-sig/backstage-plugin-innersource-common": "workspace:^"
     "@types/express": "npm:*"
     "@types/supertest": "npm:^2.0.12"
     express: "npm:^4.20.0"
@@ -9090,17 +9090,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensource-sig/backstage-plugin-synergy-common@workspace:^, @opensource-sig/backstage-plugin-synergy-common@workspace:plugins/synergy-common":
+"@opensource-sig/backstage-plugin-innersource-common@workspace:^, @opensource-sig/backstage-plugin-innersource-common@workspace:plugins/innersource-common":
   version: 0.0.0-use.local
-  resolution: "@opensource-sig/backstage-plugin-synergy-common@workspace:plugins/synergy-common"
+  resolution: "@opensource-sig/backstage-plugin-innersource-common@workspace:plugins/innersource-common"
   dependencies:
     "@backstage/cli": "npm:^0.29.2"
   languageName: unknown
   linkType: soft
 
-"@opensource-sig/backstage-plugin-synergy@workspace:^, @opensource-sig/backstage-plugin-synergy@workspace:plugins/synergy":
+"@opensource-sig/backstage-plugin-innersource@workspace:^, @opensource-sig/backstage-plugin-innersource@workspace:plugins/innersource":
   version: 0.0.0-use.local
-  resolution: "@opensource-sig/backstage-plugin-synergy@workspace:plugins/synergy"
+  resolution: "@opensource-sig/backstage-plugin-innersource@workspace:plugins/innersource"
   dependencies:
     "@backstage/cli": "npm:^0.29.2"
     "@backstage/core-app-api": "npm:^1.15.2"
@@ -9113,7 +9113,7 @@ __metadata:
     "@material-ui/core": "npm:^4.9.13"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
-    "@opensource-sig/backstage-plugin-synergy-common": "workspace:^"
+    "@opensource-sig/backstage-plugin-innersource-common": "workspace:^"
     "@testing-library/jest-dom": "npm:^6.0.0"
     "@testing-library/react": "npm:^14.0.0"
     "@testing-library/user-event": "npm:^14.0.0"
@@ -14066,7 +14066,7 @@ __metadata:
     "@backstage/theme": "npm:^0.6.2"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
-    "@opensource-sig/backstage-plugin-synergy": "workspace:^"
+    "@opensource-sig/backstage-plugin-innersource": "workspace:^"
     "@playwright/test": "npm:^1.32.3"
     "@testing-library/dom": "npm:^9.0.0"
     "@testing-library/jest-dom": "npm:^6.0.0"
@@ -14802,7 +14802,7 @@ __metadata:
     "@backstage/plugin-search-backend-module-techdocs": "npm:^0.3.3"
     "@backstage/plugin-search-backend-node": "npm:^1.3.5"
     "@backstage/plugin-techdocs-backend": "npm:^1.11.3"
-    "@opensource-sig/backstage-plugin-synergy-backend": "workspace:^"
+    "@opensource-sig/backstage-plugin-innersource-backend": "workspace:^"
     "@types/dockerode": "npm:^3.3.0"
     "@types/express": "npm:^4.17.6"
     "@types/express-serve-static-core": "npm:^4.17.5"

@@ -1,0 +1,54 @@
+{
+  "name": "@opensource-sig/backstage-plugin-innersource-common",
+  "description": "Common functionalities for the InnerSource plugin",
+  "version": "1.4.1",
+  "keywords": [
+    "backstage",
+    "plugin",
+    "common",
+    "backstage.io"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "Apache-2.0",
+  "prepublishOnly": "yarn tsc && yarn build",
+  "homepage": "https://github.com/opensource-sig/backstage-plugin-innersource",
+  "bugs": {
+    "url": "https://github.com/opensource-sig/backstage-plugin-innersource/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensource-sig/backstage-plugin-innersource.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
+  },
+  "backstage": {
+    "role": "common-library",
+    "pluginId": "innersource",
+    "pluginPackages": [
+      "@opensource-sig/backstage-plugin-innersource",
+      "@opensource-sig/backstage-plugin-innersource-backend",
+      "@opensource-sig/backstage-plugin-innersource-common"
+    ]
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "backstage-cli package build",
+    "lint": "backstage-cli package lint",
+    "test": "backstage-cli package test",
+    "clean": "backstage-cli package clean",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@backstage/cli": "^0.29.2"
+  },
+  "files": [
+    "dist"
+  ]
+}

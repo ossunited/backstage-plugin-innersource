@@ -38,6 +38,6 @@ backend.add(import('@backstage/plugin-search-backend/alpha'));
 backend.add(import('@backstage/plugin-search-backend-module-catalog/alpha'));
 backend.add(import('@backstage/plugin-search-backend-module-techdocs/alpha'));
 
-backend.add(import('@opensource-sig/backstage-plugin-synergy-backend'));
+backend.add(import('@opensource-sig/backstage-plugin-innersource-backend'));
 
 backend.start();

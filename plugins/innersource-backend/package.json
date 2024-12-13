@@ -1,0 +1,75 @@
+{
+  "name": "@opensource-sig/backstage-plugin-innersource-backend",
+  "description": "Backstage.io InnerSource plugin backend",
+  "version": "1.4.1",
+  "keywords": [
+    "backstage",
+    "plugin",
+    "backend",
+    "backstage.io"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "Apache-2.0",
+  "prepublishOnly": "yarn tsc && yarn build",
+  "homepage": "https://github.com/opensource-sig/backstage-plugin-innersource",
+  "bugs": {
+    "url": "https://github.com/opensource-sig/backstage-plugin-innersource/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensource-sig/backstage-plugin-innersource.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "backstage": {
+    "role": "backend-plugin",
+    "pluginId": "innersource",
+    "pluginPackages": [
+      "@opensource-sig/backstage-plugin-innersource",
+      "@opensource-sig/backstage-plugin-innersource-backend",
+      "@opensource-sig/backstage-plugin-innersource-common"
+    ]
+  },
+  "scripts": {
+    "start": "backstage-cli package start",
+    "build": "backstage-cli package build",
+    "lint": "backstage-cli package lint",
+    "test": "backstage-cli package test",
+    "clean": "backstage-cli package clean",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@backstage/backend-defaults": "^0.5.3",
+    "@backstage/backend-plugin-api": "^1.0.2",
+    "@backstage/config": "^1.3.0",
+    "@backstage/integration": "^1.15.2",
+    "@octokit/graphql": "^5.0.0",
+    "@opensource-sig/backstage-plugin-innersource-common": "workspace:^",
+    "@types/express": "*",
+    "express": "^4.20.0",
+    "express-promise-router": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "winston": "^3.2.1",
+    "yn": "^4.0.0"
+  },
+  "devDependencies": {
+    "@backstage/backend-test-utils": "^1.1.0",
+    "@backstage/cli": "^0.29.2",
+    "@backstage/plugin-auth-backend": "^0.24.0",
+    "@backstage/plugin-auth-backend-module-guest-provider": "^0.2.2",
+    "@types/supertest": "^2.0.12",
+    "msw": "^1.0.0",
+    "supertest": "^6.2.4"
+  },
+  "files": [
+    "dist",
+    "configSchema.d.ts"
+  ],
+  "configSchema": "configSchema.d.ts"
+}

@@ -1,5 +1,3 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
 yarn lint:all && yarn prettier:check
 npx lint-staged

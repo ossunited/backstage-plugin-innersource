@@ -1,20 +1,20 @@
 {
   "packageFiles": [
-    "plugins/synergy/package.json",
-    "plugins/synergy-backend/package.json",
-    "plugins/synergy-common/package.json"
+    "plugins/innersource/package.json",
+    "plugins/innersource-backend/package.json",
+    "plugins/innersource-common/package.json"
   ],
   "bumpFiles": [
     {
-      "filename": "plugins/synergy/package.json",
+      "filename": "plugins/innersource/package.json",
       "type": "json"
     },
     {
-      "filename": "plugins/synergy-backend/package.json",
+      "filename": "plugins/innersource-backend/package.json",
       "type": "json"
     },
     {
-      "filename": "plugins/synergy-common/package.json",
+      "filename": "plugins/innersource-common/package.json",
       "type": "json"
     }
   ]

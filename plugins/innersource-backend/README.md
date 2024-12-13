@@ -1,4 +1,37 @@
-# Plugin configuration
+# synergy
+
+Welcome to the synergy backend plugin!
+
+_This plugin was created through the Backstage CLI_
+
+## Getting started
+
+Your plugin has been added to the example app in this repository, meaning you'll be able to access it by running `yarn
+start` in the root directory, and then navigating to [/synergyPlugin/health](http://localhost:7007/api/synergyPlugin/health).
+
+You can also serve the plugin in isolation by running `yarn start` in the plugin directory.
+This method of serving the plugin provides quicker iteration speed and a faster startup and hot reloads.
+It is only meant for local development, and the setup for it can be found inside the [/dev](/dev) directory.
+
+## Installation
+
+Add the plugin to your backend app:
+
+```bash
+yarn workspace backend add  @jiteshy/backstage-plugin-innersource-backend
+```
+
+In your `packages/backend/src/index.ts` make the following changes:
+
+```ts
+import { createBackend } from '@backstage/backend-defaults';
+const backend = createBackend();
+// ... other plugins
+backend.add(import('@jiteshy/backstage-plugin-synergy-backend'));
+backend.start();
+```
+
+## Configuration
 
 The following configuration options are available for your app-config.yaml:
 
@@ -10,7 +43,6 @@ synergy:
       host: https://github.com
       apiBaseUrl: https://api.github.com
       token: <GitHub_Token>
-      hideIssues: <Optional true/false. Refer details below.>
   repoTag: inner-source
 ```
 
@@ -37,10 +69,6 @@ The configuration values are:
   - Type: string
   - Required: Yes
   - Details: GitHub access token.
-- provider.github.hideIssues
-  - Type: boolean
-  - Required: No
-  - Details: Boolean indicating whether to hide the issues tab (e.g., when Issues not used in GitHub projects). Default is false. If true, only the project list and details (README & Contributing Guidelines) will be available, as other views depend on issues.
 - repoTag
   - Type: string
   - Required: Yes
