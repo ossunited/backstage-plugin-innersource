@@ -132,11 +132,11 @@ export const ProjectPage = () => {
                 }}
               >
                 <div>
-                  <Link to="/synergy">Projects</Link> /{' '}
+                  <Link to="/innersource">Projects</Link> /{' '}
                   <span>{projectData.name}</span>
                 </div>
 
-                <LinkButton to="/synergy" variant="contained">
+                <LinkButton to="/innersource" variant="contained">
                   Back to All Projects
                 </LinkButton>
               </Box>

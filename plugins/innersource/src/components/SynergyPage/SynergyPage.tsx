@@ -15,7 +15,10 @@ import { FlatRoutes } from '@backstage/core-app-api';
 
 export const SynergyPage = () => (
   <Page themeId="tool">
-    <Header title="Welcome to Synergy!" subtitle="Our Inner Source Hub" />
+    <Header
+      title="Welcome to the InnerSource!"
+      subtitle="GitHub repositories registered with the OSPO InnerSource Hub"
+    />
     <Content>
       <ContentHeader title="Inner-Source Projects & Issues">
         <SupportButton>

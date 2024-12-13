@@ -10,7 +10,7 @@ import { createRouter } from './service/router';
  * @public
  */
 export const synergyPlugin = createBackendPlugin({
-  pluginId: 'synergy',
+  pluginId: 'innersource',
   register(env) {
     env.registerInit({
       deps: {

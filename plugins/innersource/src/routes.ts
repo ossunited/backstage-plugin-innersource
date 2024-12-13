@@ -1,7 +1,7 @@
 import { createRouteRef, createSubRouteRef } from '@backstage/core-plugin-api';
 
 export const rootRouteRef = createRouteRef({
-  id: 'synergy',
+  id: 'innersource',
 });
 
 export const projectRouteRef = createSubRouteRef({

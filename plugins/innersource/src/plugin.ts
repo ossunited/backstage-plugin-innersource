@@ -11,7 +11,7 @@ import { synergyApiRef } from './api';
 import { SynergyClient } from './api';
 
 export const synergyPlugin = createPlugin({
-  id: 'synergy',
+  id: 'innersource',
   routes: {
     root: rootRouteRef,
   },

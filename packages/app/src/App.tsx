@@ -96,7 +96,7 @@ const routes = (
     </Route>
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
-    <Route path="/synergy" element={<SynergyPage />} />
+    <Route path="/innersource" element={<SynergyPage />} />
   </FlatRoutes>
 );
 

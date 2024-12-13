@@ -53,7 +53,7 @@ export class SynergyClient implements SynergyApi {
   }
 
   private async get<T>(path: string, params?: KeyValue): Promise<T> {
-    const baseUrl = `${await this.discoveryApi.getBaseUrl('synergy')}/`;
+    const baseUrl = `${await this.discoveryApi.getBaseUrl('innersource')}/`;
     const url = new URL(path, baseUrl);
     if (params) {
       Object.keys(params).forEach((key: string) => {
