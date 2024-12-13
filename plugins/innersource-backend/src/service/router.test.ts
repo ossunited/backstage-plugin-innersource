@@ -10,9 +10,9 @@ describe('createRouter', () => {
   beforeAll(async () => {
     const config = ConfigReader.fromConfigs([
       {
-        context: 'synergy',
+        context: 'innersource',
         data: {
-          synergy: {
+          innersource: {
             provider: {
               github: {
                 org: 'test',
