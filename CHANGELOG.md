@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.6.0...v1.6.1) (2024-12-16)
+
+
+### Bug Fixes
+
+* **docs:** renamed plugin name ([637c608](https://github.com/opensource-sig/backstage-plugin-innersource/commit/637c608838fe53dfcb9acc969b34ae5ccf00b242))
+
 ## [1.6.0](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.5.0...v1.6.0) (2024-12-16)
 
 

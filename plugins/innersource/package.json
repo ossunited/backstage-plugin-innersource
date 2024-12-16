@@ -1,7 +1,7 @@
 {
   "name": "@opensource-sig/backstage-plugin-innersource",
   "description": "Backstage.io InnerSource plugin frontend",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "keywords": [
     "backstage",
     "plugin",
