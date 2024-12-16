@@ -1,12 +1,12 @@
-# synergy
+# InnerSource
 
-Welcome to the synergy plugin!
+Welcome to the InnerSource plugin!
 
 _This plugin was created through the Backstage CLI_
 
 ## Getting started
 
-Your plugin has been added to the example app in this repository, meaning you'll be able to access it by running `yarn start` in the root directory, and then navigating to [/synergy](http://localhost:3000/synergy).
+Your plugin has been added to the example app in this repository, meaning you'll be able to access it by running `yarn start` in the root directory, and then navigating to [/innersource](http://localhost:3000/innersource).
 
 You can also serve the plugin in isolation by running `yarn start` in the plugin directory.
 This method of serving the plugin provides quicker iteration speed and a faster startup and hot reloads.
@@ -17,14 +17,14 @@ It is only meant for local development, and the setup for it can be found inside
 Add the plugin to your frontend app:
 
 ```bash
-yarn workspace app add @jiteshy/backstage-plugin-innersource
+  yarn workspace app add @opensource-sig/backstage-plugin-innersource
 ```
 
 Expose the Synergy page:
 
 ```ts
 // packages/app/src/App.tsx
-import { SynergyPage } from '@jiteshy/backstage-plugin-innersource';
+import { SynergyPage } from '@opensource-sig/backstage-plugin-innersource';
 
 // ...
 
@@ -57,7 +57,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
 The following configuration options are available for your app-config.yaml:
 
 ```yaml
-synergy:
+innersource:
   provider:
     github:
       hideIssues: <Optional true/false. Refer details below.>

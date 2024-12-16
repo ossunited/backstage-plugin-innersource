@@ -1,5 +1,5 @@
-# @jiteshy/backstage-plugin-synergy-common
+# @opensource-sig/backstage-plugin-innersource-common
 
-Welcome to the common package for the synergy plugin!
+Welcome to the common package for the InnerSource plugin!
 
 _This plugin was created through the Backstage CLI_

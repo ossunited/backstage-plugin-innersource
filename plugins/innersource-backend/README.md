@@ -1,6 +1,6 @@
-# synergy
+# InnerSource
 
-Welcome to the synergy backend plugin!
+Welcome to the InnerSource backend plugin!
 
 _This plugin was created through the Backstage CLI_
 
@@ -18,7 +18,7 @@ It is only meant for local development, and the setup for it can be found inside
 Add the plugin to your backend app:
 
 ```bash
-yarn workspace backend add  @jiteshy/backstage-plugin-innersource-backend
+yarn workspace backend add  @opensource-sig/backstage-plugin-innersource-backend
 ```
 
 In your `packages/backend/src/index.ts` make the following changes:
@@ -27,7 +27,7 @@ In your `packages/backend/src/index.ts` make the following changes:
 import { createBackend } from '@backstage/backend-defaults';
 const backend = createBackend();
 // ... other plugins
-backend.add(import('@jiteshy/backstage-plugin-synergy-backend'));
+backend.add(import('@opensource-sig/backstage-plugin-synergy-backend'));
 backend.start();
 ```
 
@@ -36,10 +36,10 @@ backend.start();
 The following configuration options are available for your app-config.yaml:
 
 ```yaml
-synergy:
+innersource:
   provider:
     github:
-      org: jiteshy-innersource
+      org: opensource-sig
       host: https://github.com
       apiBaseUrl: https://api.github.com
       token: <GitHub_Token>

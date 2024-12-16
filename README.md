@@ -1,8 +1,4 @@
-# backstage-plugin-synergy
-
-<p align="center">
-<img src="./docs/images/logo.png"/>
-</p>
+# backstage-plugin-innersource
 
 Backstage.io plugin for **Inner-Source** dashboard. This plugin is both frontend and backend that manages and displays **Inner-Source projects and issues** from your GitHub org within Backstage. This plugin allows users to:
 
