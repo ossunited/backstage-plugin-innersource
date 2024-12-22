@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.4.0...v1.4.1) (2024-12-22)
+
+
+### Bug Fixes
+
+* dark mode ui fixes ([#17](https://github.com/jiteshy/backstage-plugin-synergy/issues/17)) ([8d040e8](https://github.com/jiteshy/backstage-plugin-synergy/commit/8d040e89d044bd5b3e821c8d1aa958b610420f5c))
+
 ## [1.4.0](https://github.com/jiteshy/backstage-plugin-synergy/compare/v1.3.0...v1.4.0) (2024-12-20)
 
 ### Features

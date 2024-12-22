@@ -1,7 +1,7 @@
 {
   "name": "@jiteshy/backstage-plugin-synergy",
   "description": "Backstage.io Synergy plugin frontend",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "keywords": [
     "backstage",
     "plugin",
