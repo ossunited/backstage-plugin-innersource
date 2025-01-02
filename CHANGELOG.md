@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/ossunited/backstage-plugin-innersource/compare/v1.6.1...v1.7.0) (2025-01-02)
+
+
+### Features
+
+* GitHub org name changed ([11ef7eb](https://github.com/ossunited/backstage-plugin-innersource/commit/11ef7eb76fc8158ea167ad15b7b072d53a694fe8))
+* GitHub org name changed ([a4b243c](https://github.com/ossunited/backstage-plugin-innersource/commit/a4b243ca89412f69f4bc89aa8cf1c0411489f2ff))
+* merging upstream code changes ([1a2f4b4](https://github.com/ossunited/backstage-plugin-innersource/commit/1a2f4b4b786e1e475792052f03916eecb2304c91))
+
+
+### Bug Fixes
+
+* renamed plugin name ([2f24b96](https://github.com/ossunited/backstage-plugin-innersource/commit/2f24b966a0f63f13e6dcd9d7759d721b6959feac))
+
 ### [1.6.1](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.6.0...v1.6.1) (2024-12-16)
 
 ### Bug Fixes
