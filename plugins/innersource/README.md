@@ -17,14 +17,14 @@ It is only meant for local development, and the setup for it can be found inside
 Add the plugin to your frontend app:
 
 ```bash
-  yarn workspace app add @opensource-sig/backstage-plugin-innersource
+  yarn workspace app add @ossunited/backstage-plugin-innersource
 ```
 
 Expose the Synergy page:
 
 ```ts
 // packages/app/src/App.tsx
-import { SynergyPage } from '@opensource-sig/backstage-plugin-innersource';
+import { SynergyPage } from '@ossunited/backstage-plugin-innersource';
 
 // ...
 
@@ -61,6 +61,7 @@ innersource:
   provider:
     github:
       hideIssues: <Optional true/false. Refer details below.>
+  catalogBasePath: <Optional catalog entity base path>
 ```
 
 The configuration values are:
@@ -69,3 +70,67 @@ The configuration values are:
   - Type: boolean
   - Required: No
   - Details: Boolean indicating whether to hide the issues tab (e.g., when Issues not used in GitHub projects). Default is false. If true, only the project list and details (README & Contributing Guidelines) will be available, as other views depend on issues.
+- catalogBasePath
+  - Type: string
+  - Required: No
+  - Details: Catalog entity base path. Will be used for creating catalog
+
+## Translations (experimental)
+
+Innersource plugin has integration with Backstage's experimental translation support. Refer official documentation on how to override the default plugin language - [Overwrite plugin messages](https://backstage.io/docs/plugins/internationalization/#for-an-application-developer-overwrite-plugin-messages)
+
+To add a new language, please do the below:
+
+1. Create a new translation file in `packages/app/src/translations` with language code e.g. `innersource-fi.ts`.
+
+```ts
+// packages/app/src/translations/innersource-fi.ts
+import { innersourceTranslationRef } from '@ossunited/backstage-plugin-innersource';
+import { createTranslationMessages } from '@backstage/core-plugin-api/alpha';
+
+const fi = createTranslationMessages({
+  ref: innersourceTranslationRef,
+  full: false,
+  messages: {
+    synergyPage: {
+      title: 'Tervetuloa Synergiaan!',
+      subTitle: 'Sisäisen lähdekeskuksemme',
+    },
+    ...
+  },
+});
+
+export default fi;
+```
+
+You can create translation files for other languages in a similar manner.
+
+2. Create a new translation resource in `packages/app/src/translations` for the plugin e.g. innersource.ts
+
+```ts
+// packages/app/src/translations/innersource.ts
+import { innersourceTranslationRef } from '@ossunited/backstage-plugin-innersource';
+import { createTranslationResource } from '@backstage/core-plugin-api/alpha';
+
+export const innersourceTranslationsResource = createTranslationResource({
+  ref: innersourceTranslationRef,
+  translations: {
+    fi: () => import('./innersource-fi'),
+    // include other languages, if needed
+  },
+});
+```
+
+3. Then add the translation to your `packages/app/src/App.tsx`:
+
+```tsx
+import { innersourceTranslationsResource } from './translations/innersource';
+
+const app = createApp({
+  //...
+  __experimentalTranslations: {
+    availableLanguages: ['en', 'fi'],
+    resources: [innersourceTranslationsResource],
+  },
+});
+```

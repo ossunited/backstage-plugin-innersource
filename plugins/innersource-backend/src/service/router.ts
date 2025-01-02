@@ -14,7 +14,7 @@ import {
   ProjectIssue,
   ProjectStats,
   SynergyApi,
-} from '@opensource-sig/backstage-plugin-innersource-common';
+} from '@ossunited/backstage-plugin-innersource-common';
 import { MiddlewareFactory } from '@backstage/backend-defaults/rootHttpRouter';
 
 export interface RouterOptions {

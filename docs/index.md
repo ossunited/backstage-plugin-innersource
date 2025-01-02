@@ -1,6 +1,6 @@
 # Getting started
 
-This document provides an overview of the Backstage Synergy plugin, including installation instructions,
+This document provides an overview of the Backstage Innersource plugin, including installation instructions,
 configuration options, and usage examples.
 
 ## Installation
@@ -11,3 +11,7 @@ configuration options, and usage examples.
 ## Usage
 
 - [Examples](examples.md)
+
+## Integrations
+
+- [Integration with Backstage translations (experimental)](translations.md)

@@ -1,5 +1,5 @@
 import { useApi } from '@backstage/core-plugin-api';
-import { SynergyApi } from '@opensource-sig/backstage-plugin-innersource-common';
+import { SynergyApi } from '@ossunited/backstage-plugin-innersource-common';
 import { synergyApiRef } from '../api';
 import useAsync from 'react-use/esm/useAsync';
 

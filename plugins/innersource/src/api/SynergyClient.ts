@@ -8,7 +8,7 @@ import {
   ProjectIssue,
   ProjectStats,
   SynergyApi,
-} from '@opensource-sig/backstage-plugin-innersource-common';
+} from '@ossunited/backstage-plugin-innersource-common';
 
 export class SynergyClient implements SynergyApi {
   private readonly discoveryApi: DiscoveryApi;

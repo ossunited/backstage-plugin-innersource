@@ -9,7 +9,7 @@ import {
   ProjectIssue,
   ProjectContributor,
   ProjectStats,
-} from '@opensource-sig/backstage-plugin-innersource-common';
+} from '@ossunited/backstage-plugin-innersource-common';
 
 type TopicNode = {
   topic: {

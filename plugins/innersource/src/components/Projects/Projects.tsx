@@ -4,15 +4,17 @@ import {
   Progress,
   ResponseErrorPanel,
 } from '@backstage/core-components';
-import { Project } from '@opensource-sig/backstage-plugin-innersource-common';
-import { useSynergyApi } from '../../hooks';
+import { Project } from '@ossunited/backstage-plugin-innersource-common';
 import { ProjectCard } from '../ProjectCard';
 import { Box, Grid } from '@material-ui/core';
 import { Dropdown } from '../UI';
 import FilterListIcon from '@material-ui/icons/FilterList';
 import { InfoBanner } from '../InfoBanner';
+import { useSynergyTranslation } from '../../hooks';
+import { useSynergyApi } from '../../hooks';
 
 export const Projects = () => {
+  const { t } = useSynergyTranslation();
   const {
     value: projects,
     loading,
@@ -67,8 +69,8 @@ export const Projects = () => {
     <Grid container>
       <Grid item xs={12}>
         <InfoBanner
-          title="Explore inner-source projects, contribute, and rise on the leaderboard"
-          subtitle="Below projects are currently accepting contributions."
+          title={t('projectTab.infoTitle')}
+          subtitle={t('projectTab.infoSubTitle')}
         />
       </Grid>
       <Grid item xs={12}>
@@ -84,7 +86,7 @@ export const Projects = () => {
         >
           <FilterListIcon fontSize="medium" style={{ marginTop: '20px' }} />
           <Dropdown
-            label="Category"
+            label={t('homePage.filterPlaceholderText')}
             items={prepareCategories(projects)}
             current={category}
             handleSelect={filterByCategory}
@@ -101,7 +103,7 @@ export const Projects = () => {
             )}
           </ItemCardGrid>
         ) : (
-          <p>No Inner-Source projects found.</p>
+          <p>{t('projectTab.notFound')}</p>
         )}
       </Grid>
     </Grid>

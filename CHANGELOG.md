@@ -4,22 +4,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.6.1](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.6.0...v1.6.1) (2024-12-16)
 
-
 ### Bug Fixes
 
-* **docs:** renamed plugin name ([637c608](https://github.com/opensource-sig/backstage-plugin-innersource/commit/637c608838fe53dfcb9acc969b34ae5ccf00b242))
+- **docs:** renamed plugin name ([637c608](https://github.com/opensource-sig/backstage-plugin-innersource/commit/637c608838fe53dfcb9acc969b34ae5ccf00b242))
 
 ## [1.6.0](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.5.0...v1.6.0) (2024-12-16)
 
-
 ### Features
 
-* changed the plugin id and improved to sync with devopex ([12fe663](https://github.com/opensource-sig/backstage-plugin-innersource/commit/12fe663893df85b7190238af263238bffb1c4768))
-
+- changed the plugin id and improved to sync with devopex ([12fe663](https://github.com/opensource-sig/backstage-plugin-innersource/commit/12fe663893df85b7190238af263238bffb1c4768))
 
 ### Bug Fixes
 
-* **ci:** renamed release bot and added dependabot support ([548c6ca](https://github.com/opensource-sig/backstage-plugin-innersource/commit/548c6ca86b8b35d83297c2f79755a4388cf8840d))
+- **ci:** renamed release bot and added dependabot support ([548c6ca](https://github.com/opensource-sig/backstage-plugin-innersource/commit/548c6ca86b8b35d83297c2f79755a4388cf8840d))
 
 ## [1.5.0](https://github.com/opensource-sig/backstage-plugin-innersource/compare/v1.4.1...v1.5.0) (2024-12-13)
 

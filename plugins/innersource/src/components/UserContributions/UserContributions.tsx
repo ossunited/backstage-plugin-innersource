@@ -4,13 +4,13 @@ import {
   Progress,
   ResponseErrorPanel,
 } from '@backstage/core-components';
-import { ProjectIssue } from '@opensource-sig/backstage-plugin-innersource-common';
+import { ProjectIssue } from '@ossunited/backstage-plugin-innersource-common';
 import { useSynergyApi } from '../../hooks';
 import { Grid } from '@material-ui/core';
 import { IssuesList } from '../IssuesList';
 import { InfoBanner } from '../InfoBanner';
 
-export const UserIssues = () => {
+export const UserContributions = () => {
   const {
     value: issuesList,
     loading,
