@@ -11,7 +11,7 @@ Contributions are welcome, and they are greatly appreciated! Every little bit he
 
 The official support channels, for both users and contributors, are:
 
-- GitHub [issues](https://github.com/opensource-sig/backstage-plugin-innersource/issues)
+- GitHub [issues](https://github.com/ossunited/backstage-plugin-innersource/issues)
 
 ## How to Contribute
 
@@ -26,7 +26,7 @@ Fork and then clone the repository:
 ```sh
 git clone git@github.com:your_github_username/backstage-plugin-innersource.git
 cd backstage-plugin-innersource
-git remote add upstream https://github.com/opensource-sig/backstage-plugin-innersource.git
+git remote add upstream https://github.com/ossunited/backstage-plugin-innersource.git
 git fetch upstream
 ```
 
