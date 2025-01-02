@@ -1,5 +1,5 @@
 {
-  "name": "@opensource-sig/backstage-plugin-innersource",
+  "name": "@ossunited/backstage-plugin-innersource",
   "description": "Backstage.io InnerSource plugin frontend",
   "version": "1.6.1",
   "keywords": [
@@ -12,13 +12,13 @@
   "types": "src/index.ts",
   "license": "Apache-2.0",
   "prepublishOnly": "yarn tsc && yarn build",
-  "homepage": "https://github.com/opensource-sig/backstage-plugin-innersource",
+  "homepage": "https://github.com/ossunited/backstage-plugin-innersource",
   "bugs": {
-    "url": "https://github.com/opensource-sig/backstage-plugin-innersource/issues"
+    "url": "https://github.com/ossunited/backstage-plugin-innersource/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/opensource-sig/backstage-plugin-innersource.git"
+    "url": "https://github.com/ossunited/backstage-plugin-innersource.git"
   },
   "publishConfig": {
     "access": "public",
@@ -29,9 +29,9 @@
     "role": "frontend-plugin",
     "pluginId": "innersource",
     "pluginPackages": [
-      "@opensource-sig/backstage-plugin-innersource",
-      "@opensource-sig/backstage-plugin-innersource-backend",
-      "@opensource-sig/backstage-plugin-innersource-common"
+      "@ossunited/backstage-plugin-innersource",
+      "@ossunited/backstage-plugin-innersource-backend",
+      "@ossunited/backstage-plugin-innersource-common"
     ]
   },
   "sideEffects": false,
@@ -54,7 +54,7 @@
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "4.0.0-alpha.61",
-    "@opensource-sig/backstage-plugin-innersource-common": "workspace:^",
+    "@ossunited/backstage-plugin-innersource-common": "workspace:^",
     "react-use": "^17.2.4"
   },
   "peerDependencies": {
