@@ -1,5 +1,5 @@
 export interface Config {
-  synergy: {
+  innersource: {
     /**
      * Synergy plugin providers
      */
