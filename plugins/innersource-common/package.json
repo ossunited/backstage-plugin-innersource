@@ -1,7 +1,7 @@
 {
   "name": "@ossunited/backstage-plugin-innersource-common",
   "description": "Common functionalities for the InnerSource plugin",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "keywords": [
     "backstage",
     "plugin",

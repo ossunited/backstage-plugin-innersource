@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/ossunited/backstage-plugin-innersource/compare/v1.7.0...v1.8.0) (2025-01-03)
+
+
+### Features
+
+* renamed workflow bot name ([74a4fa8](https://github.com/ossunited/backstage-plugin-innersource/commit/74a4fa88170fca374bf02fe92ab123598dd7d436))
+
+
+### Bug Fixes
+
+* resolved schema issue ([83a80bd](https://github.com/ossunited/backstage-plugin-innersource/commit/83a80bd396db76275693496557a2cf30620abfd8))
+
 ## [1.7.0](https://github.com/ossunited/backstage-plugin-innersource/compare/v1.6.1...v1.7.0) (2025-01-02)
 
 
